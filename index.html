@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brasa Burguer — Artesanal & Honesto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🔥</span>
+        <div>
+          <span class="logo-name">BRASA</span>
+          <span class="logo-sub">BURGUER</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="cart-btn" id="cartToggle">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Desde 2018 — Porto Alegre</p>
+      <h1 class="hero-title">CARNE<br><em>NA BRASA.</em></h1>
+      <p class="hero-desc">Hambúrgueres artesanais feitos com ingredientes selecionados. Sem frescura, sem enrolação — só sabor de verdade.</p>
+      <a href="#cardapio" class="hero-cta">Ver Cardápio</a>
+    </div>
+    <div class="hero-image">
+      <div class="burger-visual">
+        <div class="bun-top"></div>
+        <div class="lettuce"></div>
+        <div class="cheese"></div>
+        <div class="patty"></div>
+        <div class="bun-bottom"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="announcement">
+    <div class="announcement-track">
+      <span>🔥 ABERTO TODOS OS DIAS</span>
+      <span>•</span>
+      <span>🛵 ENTREGA EM ATÉ 45 MIN</span>
+      <span>•</span>
+      <span>🍔 SMASH BURGER DO DIA</span>
+      <span>•</span>
+      <span>🔥 ABERTO TODOS OS DIAS</span>
+      <span>•</span>
+      <span>🛵 ENTREGA EM ATÉ 45 MIN</span>
+      <span>•</span>
+      <span>🍔 SMASH BURGER DO DIA</span>
+      <span>•</span>
+    </div>
+  </section>
+
+  <section class="cardapio" id="cardapio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">— O QUE FAZEMOS —</span>
+        <h2 class="section-title">CARDÁPIO</h2>
+      </div>
+
+      <div class="category-tabs">
+        <button class="tab active" data-cat="burgers">Burgers</button>
+        <button class="tab" data-cat="combos">Combos</button>
+        <button class="tab" data-cat="sides">Acompanhamentos</button>
+        <button class="tab" data-cat="drinks">Bebidas</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <div class="container sobre-inner">
+      <div class="sobre-text">
+        <span class="section-tag">— QUEM SOMOS —</span>
+        <h2 class="section-title">FEITO COM<br>RESPEITO</h2>
+        <p>A Brasa nasceu de uma paixão: fazer o hambúrguer que a gente sempre quis comer. Carne moída na hora, pão de brioche artesanal, ingredientes frescos todo dia.</p>
+        <p>Sem congelados. Sem atalhos. Só dedicação e fogo alto.</p>
+        <div class="stats">
+          <div class="stat"><span>6+</span><p>Anos de história</p></div>
+          <div class="stat"><span>18</span><p>Itens no cardápio</p></div>
+          <div class="stat"><span>★ 4.9</span><p>Avaliação média</p></div>
+        </div>
+      </div>
+      <div class="sobre-img">
+        <div class="grill-visual">
+          <div class="grill-lines">
+            <div></div><div></div><div></div><div></div>
+          </div>
+          <div class="patty-grill"></div>
+          <div class="smoke"></div>
+          <div class="smoke s2"></div>
+          <div class="smoke s3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">— NOS ENCONTRE —</span>
+        <h2 class="section-title">ONDE ESTAMOS</h2>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Endereço</strong>
+              <p>Rua dos Andradas, 1234 — Centro<br>Porto Alegre, RS</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🕐</span>
+            <div>
+              <strong>Horário</strong>
+              <p>Seg–Sex: 11h às 23h<br>Sáb–Dom: 11h às 00h</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📞</span>
+            <div>
+              <strong>Telefone / WhatsApp</strong>
+              <p>(51) 99999-8888</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🛵</span>
+            <div>
+              <strong>Raio de Entrega</strong>
+              <p>Até 10 km do restaurante<br>Frete a partir de R$ 5,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-placeholder">
+          <div class="map-inner">
+            <span>📍</span>
+            <p>Brasa Burguer</p>
+            <small>Porto Alegre - RS</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">
+        <span class="logo-icon">🔥</span>
+        <div>
+          <span class="logo-name">BRASA</span>
+          <span class="logo-sub">BURGUER</span>
+        </div>
+      </div>
+      <p>© 2026 Brasa Burguer. Todos os direitos reservados.</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">iFood</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <h3>SEU PEDIDO</h3>
+      <button class="cart-close" id="cartClose">✕</button>
+    </div>
+
+    <div class="delivery-toggle">
+      <button class="dtoggle active" id="btnEntrega" data-mode="entrega">🛵 Entrega</button>
+      <button class="dtoggle" id="btnRetirada" data-mode="retirada">🏪 Retirada</button>
+    </div>
+
+    <div class="delivery-info" id="deliveryInfo">
+      <div class="form-group">
+        <label>CEP</label>
+        <input type="text" id="cepInput" placeholder="00000-000" maxlength="9">
+      </div>
+      <div class="form-group">
+        <label>Endereço</label>
+        <input type="text" id="enderecoInput" placeholder="Rua, número">
+      </div>
+      <div class="form-group">
+        <label>Complemento</label>
+        <input type="text" id="complementoInput" placeholder="Apto, bloco...">
+      </div>
+    </div>
+
+    <div class="retirada-info hidden" id="retiradaInfo">
+      <div class="retirada-box">
+        <strong>📍 Retire no balcão</strong>
+        <p>Rua dos Andradas, 1234 — Centro<br>Tempo estimado: <b>20 min</b></p>
+      </div>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty" id="cartEmpty">
+        <span>🍔</span>
+        <p>Seu carrinho está vazio</p>
+        <small>Adicione itens do cardápio</small>
+      </div>
+    </div>
+
+    <div class="cart-footer" id="cartFooter">
+      <div class="cart-totals">
+        <div class="total-row">
+          <span>Subtotal</span>
+          <span id="subtotalVal">R$ 0,00</span>
+        </div>
+        <div class="total-row" id="freteRow">
+          <span>Frete</span>
+          <span id="freteVal">R$ 0,00</span>
+        </div>
+        <div class="total-row total-final">
+          <span>TOTAL</span>
+          <span id="totalVal">R$ 0,00</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Forma de pagamento</label>
+        <select id="pagamento">
+          <option value="">Selecione...</option>
+          <option value="pix">PIX</option>
+          <option value="credito">Cartão de Crédito</option>
+          <option value="debito">Cartão de Débito</option>
+          <option value="dinheiro">Dinheiro</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="trocoGroup" style="display:none">
+        <label>Troco para</label>
+        <input type="number" id="trocoInput" placeholder="R$ 0,00">
+      </div>
+
+      <div class="form-group">
+        <label>Observações</label>
+        <textarea id="obsInput" placeholder="Sem cebola, sem molho..."></textarea>
+      </div>
+
+      <button class="btn-finalizar" id="btnFinalizar">FINALIZAR PEDIDO</button>
+    </div>
+  </aside>
+
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-img" id="modalImg"></div>
+      <div class="modal-body">
+        <h3 id="modalName"></h3>
+        <p id="modalDesc"></p>
+        <div class="modal-price" id="modalPrice"></div>
+        <div class="modal-controls">
+          <div class="qty-control">
+            <button class="qty-btn" id="modalQtyMinus">−</button>
+            <span id="modalQty">1</span>
+            <button class="qty-btn" id="modalQtyPlus">+</button>
+          </div>
+          <button class="btn-add-modal" id="modalAddBtn">Adicionar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

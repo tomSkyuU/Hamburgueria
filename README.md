@@ -16,6 +16,11 @@ Site desenvolvido para a Brasa Burguer, uma hamburgueria artesanal fictícia de 
 📍 Busca de CEP automática via API ViaCEP
 📲 Layout responsivo para mobile e desktop
 
+#fotos
+<img width="1851" height="969" alt="Captura de tela 2026-04-25 191846" src="https://github.com/user-attachments/assets/00ed502f-769b-4f0e-83b0-8af2e48b825a" />
+<img width="1853" height="967" alt="Captura de tela 2026-04-25 191830" src="https://github.com/user-attachments/assets/29f07a53-6ed5-43c8-ba23-ddbc4299f838" />
+<img width="1856" height="968" alt="Captura de tela 2026-04-25 191813" src="https://github.com/user-attachments/assets/fffddfff-7145-4d10-a33d-1403363effd9" />
+
 
 🗂️ Estrutura de Arquivos
 brasa-burguer/
